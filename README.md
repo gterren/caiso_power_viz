@@ -1,2 +1,1 @@
-# Joint Probabilistic Day-ahead Energy Forecast
-Visualization companion to caiso_power
+# Joint Probabilistic Day-ahead Energy Forecast plotting companion
