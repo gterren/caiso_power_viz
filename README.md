@@ -1,6 +1,6 @@
 # Joint Probabilistic Day-ahead Energy Forecast visualization companion
 
-The Joint Probabilistic Day-ahead Energy Forecast model is available in ``https://github.com/gterren/caiso_power`. This repository contains the codes developed for data download and processing, and results vizualizations.
+The Joint Probabilistic Day-ahead Energy Forecast model is available in ``https://github.com/gterren/caiso_power``. This repository contains the code developed for data download, processing, and result visualization.
 
 ## Data Download
 
