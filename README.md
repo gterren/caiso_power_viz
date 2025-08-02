@@ -4,12 +4,12 @@ The Joint Probabilistic Day-ahead Energy Forecast model is available in ``https:
 
 ## Data Download
 
-* ``CAISO_API_for_renewable_generation_and_demand.py``
-* ``NOAA_API_for_weather.py``
+* ``CAISO_API_for_renewable_generation_and_demand.py`` script to download from OASIS timeseries from solar generation, wind generation, and electricity demand in CAISO.
+* ``NOAA_API_for_weather.py`` script to download NOAA HRRR Numerical Weather Forecasts (NWFs).
+* ``consolidate_NOAA_and_CAISO.py`` script to consolidate NOAA HRRR NWFs with CAISO solar generation, wind generation, and electricity demand.
 
 ## Data Processing
 
-* ``consolidate_NOAA_and_CAISO.py``
 * ``dimensionality_reduction.ipynb``
 
 ## Vizualizations
