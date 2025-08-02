@@ -4,9 +4,23 @@ The Joint Probabilistic Day-ahead Energy Forecast model is available in ``https:
 
 ## Data Download
 
+* ``CAISO_API_for_renewable_generation_and_demand.py``
+* ``NOAA_API_for_weather.py``
+
 ## Data Processing
 
+* ``consolidate_NOAA_and_CAISO.py``
+* ``dimensionality_reduction.ipynb``
+
 ## Vizualizations
+
+* ``motivation.ipynb``
+* ``system_level.ipynb``
+* ``model_selection.ipynb``
+* ``simulations.ipynb``
+* ``operational_reserves.ipynb``
+* ``feature_maps.ipynb``
+* ``input_data_viz.ipynb``
 
 ## Reference
 
