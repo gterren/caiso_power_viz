@@ -6,10 +6,12 @@ The Joint Probabilistic Day-ahead Energy Forecast model is available in ``https:
 
 * ``CAISO_API_for_renewable_generation_and_demand.py`` script to download from OASIS timeseries from solar generation, wind generation, and electricity demand in CAISO.
 * ``NOAA_API_for_weather.py`` script to download NOAA HRRR Numerical Weather Forecasts (NWFs).
-* ``consolidate_NOAA_and_CAISO.py`` script to consolidate NOAA HRRR NWFs with CAISO solar generation, wind generation, and electricity demand.
 
 ## Data Processing
 
+* ``consolidate_NOAA_and_CAISO.py`` script to consolidate NOAA HRRR NWFs with CAISO solar generation, wind generation, and electricity demand.
+* ``consolidate_NOAA_actuals_and_CAISO_actuals.py`` script to consolidate NOAA HRRR reanalyzed measurements with actual solar generation, wind generation, and electricity demand from CAISO. This is the Input dataset for the sparse learning method.
+* ``consolidate_NOAA_forecasts_and_CAISO_actuals.py`` script to consolidate NOAA HRRR NWFs with solar generation, wind generation, and electricity demand actuals from CAISO. This is the Input dataset for the dense learning method.
 * ``download_data.ipynb`` notebook with the processing functionalities (interpolation, solar and wind masks, population density).
 
 ## Vizualizations
