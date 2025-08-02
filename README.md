@@ -10,17 +10,17 @@ The Joint Probabilistic Day-ahead Energy Forecast model is available in ``https:
 
 ## Data Processing
 
-* ``dimensionality_reduction.ipynb``
+* ``download_data.ipynb`` notebook with the processing functionalities (interpolation, solar and wind masks, population density).
 
 ## Vizualizations
 
-* ``motivation.ipynb`` motivation for improving an energy forecast (Fig. 1, and SI).
-* ``system_level.ipynb`` baseline aggregated forecasts comparison (Fig2. 2, 5, 10, and SI).
-* ``model_selection.ipynb`` model selection based on proposer scoring rules (Fig. 3 and SI).
-* ``simulations.ipynb`` electricity demand, solar generation, and wind generation day-ahead forecast demonstration (Fig. 3, 5, 11, and SI),
+* ``motivation.ipynb`` notebook with the visualization to motivate why improving an energy forecast (Fig. 1, and SI).
+* ``system_level.ipynb`` notebook with the comparison between aggregated energy forecasts and the baselines (Fig. 2, 5, 10, and SI).
+* ``model_selection.ipynb`` notebook with the model selection based on proposer scoring rules (Fig. 3 and SI).
+* ``simulations.ipynb`` notebook with the electricity demand, solar generation, and wind generation day-ahead forecast demonstrations (Fig. 3, 5, 11, and SI),
 * ``operational_reserves.ipynb`` dynamic operation reserves allocation experiments (Fig. 6).
-* ``feature_maps.ipynb`` weather features selected by the different sparse learning methods (Fig. 9).
-* ``input_data_viz.ipynb`` weather forecasts and reanalyzed measurements visualization (Fig. 7 and SI)
+* ``feature_maps.ipynb`` notebook showing the weather features selected by the different sparse learning methods (Fig. 9).
+* ``input_data_viz.ipynb`` notebook to visualize the weather forecasts and reanalyzed measurements visualization (Fig. 7 and SI)
 
 ## Reference
 
